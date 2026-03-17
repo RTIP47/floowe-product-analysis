@@ -1,3 +1,7 @@
+🇬🇧 English version → [See English version](../en/01-product-analysis.md)
+
+---
+
 # Analiza Produktu – Floowe
 
 ## 1. Problem
