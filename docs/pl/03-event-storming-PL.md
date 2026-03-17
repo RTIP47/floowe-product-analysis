@@ -1,3 +1,7 @@
+🇬🇧 English version → [See English version](../en/03-event-storming.md)
+
+---
+
 # Event Storming – Floowe
 
 Ten dokument przedstawia analizę Event Storming dla produktu Floowe, identyfikując kluczowe zdarzenia domenowe (domain events), komendy (commands), aktorów oraz systemy zewnętrzne zaangażowane w proces tworzenia i dystrybucji treści.
