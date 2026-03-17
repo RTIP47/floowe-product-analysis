@@ -23,10 +23,10 @@ docs/
 
 ## 📄 Polish documentation
 
-- [Analiza produktu](docs/pl/01-product-analysis.md)
-- [Przepływy użytkownika](docs/pl/02-user-flows.md)
-- [Event Storming](docs/pl/03-event-storming.md)
-- [Propozycje funkcjonalności](docs/pl/04-features.md)
+- [Analiza produktu](docs/pl/01-product-analysis-PL.md)
+- [Przepływy użytkownika](docs/pl/02-user-flows-PL.md)
+- [Event Storming](docs/pl/03-event-storming-PL.md)
+- [Propozycje funkcjonalności](docs/pl/04-features-PL.md)
 ---
 
 # Approach
