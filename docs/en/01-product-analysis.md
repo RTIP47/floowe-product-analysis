@@ -1,5 +1,7 @@
 🇵🇱 Polish version → [Zobacz wersję polską](../pl/01-product-analysis.md)
 
+---
+
 # Product Analysis – Floowe
 
 ## 1. Problem Statement
