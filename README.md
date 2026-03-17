@@ -1,3 +1,6 @@
+🇬🇧 English version  
+🇵🇱 Polish version → see README-PL.md
+
 # Floowe Product Analysis
 
 This repository contains a product analysis and feature proposal exercise based on the Floowe platform.
