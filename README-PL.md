@@ -1,5 +1,4 @@
-🇵🇱 Wersja polska  
-🇬🇧 English version → see README.md
+🇵🇱 Polski | 🇬🇧 [English](README.md)
 
 # Analiza Produktu – Floowe
 
