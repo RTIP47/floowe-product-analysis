@@ -1,4 +1,4 @@
-🇵🇱 Polish version → [Zobacz wersję polską](../pl/03-event-storming.md)
+🇵🇱 Polish version → [Zobacz wersję polską](../pl/03-event-storming-PL.md)
 
 ---
 # Event Storming – Floowe
