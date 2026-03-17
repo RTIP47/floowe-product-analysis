@@ -1,4 +1,4 @@
-🇵🇱 Polish version → [Zobacz wersję polską](../pl/02-user-flows.md)
+🇵🇱 Polish version → [Zobacz wersję polską](../pl/02-user-flows-PL.md)
 
 ---
 
