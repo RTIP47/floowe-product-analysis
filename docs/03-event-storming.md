@@ -205,7 +205,7 @@ flowchart LR
   E3 -->|triggers| C4
   E5 -->|triggers| C5
   E8 -->|triggers| C8
-  E10 -->|triggers| C9
+  E9 -->|triggers| C9
 ```
 
 ---
