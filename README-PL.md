@@ -15,10 +15,19 @@ Celem tego zadania było przeanalizowanie produktu, zrozumienie jego głównych 
 
 docs/
 
-01-product-analysis.md – analiza produktu, grupy docelowej, funkcjonalności i integracji  
-02-user-flows.md – kluczowe przepływy użytkownika i interakcje z systemem  
-03-event-storming.md – analiza zdarzeń domenowych, komend oraz granic systemu  
-04-features.md – propozycje nowych funkcjonalności i ich specyfikacja
+## 📄 Dokumentacja po polsku
+
+- [Analiza produktu](docs/pl/01-product-analysis.md) - analiza produktu, grupy docelowej, funkcjonalności i integracji 
+- [Przepływy użytkownika](docs/pl/02-user-flows.md) - kluczowe przepływy użytkownika i interakcje z systemem  
+- [Event Storming](docs/pl/03-event-storming.md) - analiza zdarzeń domenowych, komend oraz granic systemu  
+- [Propozycje funkcjonalności](docs/pl/04-features.md) - propozycje nowych funkcjonalności i ich specyfikacja
+
+## 📄 English documentation
+
+- [Product Analysis](docs/en/01-product-analysis.md)
+- [User Flows](docs/en/02-user-flows.md)
+- [Event Storming](docs/en/03-event-storming.md)
+- [Feature Proposals](docs/en/04-features.md)
 
 ---
 
