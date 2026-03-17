@@ -1,3 +1,7 @@
+🇵🇱 Polish version → [Zobacz wersję polską](../pl/04-features.md)
+
+---
+
 # Feature Proposals – Floowe
 
 This document proposes three new features for the Floowe platform based on the previous product analysis, user flows, and event storming results.
