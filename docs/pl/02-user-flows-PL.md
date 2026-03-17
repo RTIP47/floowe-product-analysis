@@ -1,3 +1,7 @@
+🇬🇧 English version → [See English version](../en/02-user-flows.md)
+
+---
+
 # Przepływy Użytkownika – Floowe
 
 Niniejszy dokument opisuje kluczowe przepływy użytkownika w aplikacji Floowe.  
