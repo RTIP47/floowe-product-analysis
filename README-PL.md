@@ -72,4 +72,4 @@ Zaproponowane funkcjonalności rozwijają te obszary poprzez wprowadzenie:
 
 # Autor
 
-Projekt przygotowany jako część zadania rekrutacyjnego na stanowisko Technical Project Manager / Product Analyst.
+Projekt przygotowany przez Artura Kosiorek jako część zadania rekrutacyjnego na stanowisko Technical Project Manager / Product Analyst.
