@@ -1,5 +1,7 @@
 🇵🇱 Polish version → [Zobacz wersję polską](../pl/02-user-flows.md)
 
+---
+
 # User Flows – Floowe
 
 This document describes the key user flows in Floowe.  
