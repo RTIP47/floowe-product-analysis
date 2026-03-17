@@ -1,3 +1,7 @@
+🇬🇧 English version → [See English version](../en/04-features.md)
+
+---
+
 # Propozycje funkcjonalności – Floowe
 
 Dokument przedstawia trzy nowe funkcjonalności dla platformy Floowe na podstawie wcześniejszej analizy produktu, przepływów użytkownika (user flows) oraz analizy Event Storming.
