@@ -5,7 +5,7 @@ Każdy przepływ pokazuje interakcję pomiędzy użytkownikiem a systemem oraz w
 
 ## Diagram Wizualny
 
-![User Flows](floowe_user_flows.svg)
+![User Flows](../diagrams/floowe_user_flows.svg)
 
 ---
 
