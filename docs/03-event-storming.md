@@ -98,7 +98,115 @@ Terminal events include **Content Distributed** and **SEO Loop Started**, repres
 
 # Event Storming Diagram
 
-![Event Storming](event-storming-floowe.svg)
+```mermaid
+flowchart LR
+
+  %% ── Styles ──────────────────────────────────────────
+  classDef actor    fill:#EEEDFE,stroke:#AFA9EC,color:#3C3489,font-weight:600
+  classDef command  fill:#E6F1FB,stroke:#85B7EB,color:#0C447C,font-weight:600
+  classDef event    fill:#FAEEDA,stroke:#EF9F27,color:#633806,font-weight:600
+  classDef external fill:#E1F5EE,stroke:#5DCAA5,color:#085041,font-weight:600
+  classDef domain   fill:#F1EFE8,stroke:#B4B2A9,color:#5F5E5A,font-weight:700
+
+  %% ════════════════════════════════════════════════════
+  %% DOMAIN 1 — ONBOARDING
+  %% ════════════════════════════════════════════════════
+  subgraph D1["① Onboarding"]
+    direction TB
+    U1(["User"]):::actor
+
+    C1["Register Account"]:::command
+    C2["Save Brand Profile"]:::command
+    C3["Link Social Channels"]:::command
+
+    E1(["Account Created"]):::event
+    E2(["Brand Profile Saved"]):::event
+    E3(["Channels Linked"]):::event
+
+    U1 --> C1 --> E1 --> C2 --> E2 --> C3 --> E3
+  end
+
+  %% ════════════════════════════════════════════════════
+  %% DOMAIN 2 — CONTENT GENERATION
+  %% ════════════════════════════════════════════════════
+  subgraph D2["② Content Generation"]
+    direction TB
+    U2(["User"]):::actor
+    SYS1[["AI Content Engine"]]:::external
+
+    C4["Generate Article"]:::command
+
+    E4(["Article Generation Requested"]):::event
+    E5(["Draft Article Created"]):::event
+
+    U2 --> C4 --> E4 --> SYS1 --> E5
+  end
+
+  %% ════════════════════════════════════════════════════
+  %% DOMAIN 3 — EDITING
+  %% ════════════════════════════════════════════════════
+  subgraph D3["③ Editing"]
+    direction TB
+    U3(["User"]):::actor
+
+    C5["Edit Article"]:::command
+    C6["Attach Image"]:::command
+    C7["Approve Article"]:::command
+
+    E6(["Article Edited"]):::event
+    E7(["Image Attached"]):::event
+    E8(["Article Approved"]):::event
+
+    U3 --> C5 --> E6 --> C6 --> E7 --> C7 --> E8
+  end
+
+  %% ════════════════════════════════════════════════════
+  %% DOMAIN 4 — PUBLISHING
+  %% ════════════════════════════════════════════════════
+  subgraph D4["④ Publishing"]
+    direction TB
+    U4(["User"]):::actor
+    SYS2[["Website CMS"]]:::external
+
+    C8["Publish Article"]:::command
+
+    E9(["Article Published"]):::event
+    E10(["Social Posts Generated"]):::event
+
+    U4 --> C8 --> E9 --> SYS2
+    E9 --> E10
+  end
+
+  %% ════════════════════════════════════════════════════
+  %% DOMAIN 5 — DISTRIBUTION
+  %% ════════════════════════════════════════════════════
+  subgraph D5["⑤ Distribution"]
+    direction TB
+    SYS3[["Facebook API"]]:::external
+    SYS4[["LinkedIn API"]]:::external
+    SYS5[["X API"]]:::external
+    SYS6[["Search Engines"]]:::external
+
+    C9["Distribute Content"]:::command
+
+    E11(["Social Post Published"]):::event
+    E12(["Content Distributed"]):::event
+    E13(["SEO Loop Started"]):::event
+
+    C9 --> SYS3 --> E11
+    C9 --> SYS4 --> E11
+    C9 --> SYS5 --> E11
+    E11 --> E12 --> SYS6 --> E13
+  end
+
+  %% ════════════════════════════════════════════════════
+  %% DOMAIN TRANSITIONS (left → right flow)
+  %% ════════════════════════════════════════════════════
+  E3 -->|triggers| C4
+  E5 -->|triggers| C5
+  E8 -->|triggers| C8
+  E10 -->|triggers| C9
+```
 
 ---
 
