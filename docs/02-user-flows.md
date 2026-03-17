@@ -6,7 +6,6 @@ Each flow shows the interaction between the user and the system, as well as the 
 ## Visual Diagram
 
 ![User Flows](floowe_user_flows.svg)
-
 ---
 
 ## Flow 1: Onboarding & Setup
@@ -79,13 +78,3 @@ Content is published across website and social media channels with minimal manua
 Compounding organic traffic growth through consistent content publishing.
 
 ---
-
-## Summary Table
-
-| Flow | Key Result | Integrations |
-|-----|-----|-----|
-| Onboarding | User account and channels configured | Social media APIs |
-| Content Generation | AI-generated SEO draft | AI model, keyword trends |
-| Edit & Enrich | Human-refined content | Image libraries |
-| Publish & Distribute | Multi-channel publishing | CMS plugin, social APIs |
-| SEO Growth Loop | Long-term organic traffic | Search engines |
