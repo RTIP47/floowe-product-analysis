@@ -3,6 +3,10 @@
 This document describes the key user flows in Floowe.  
 Each flow shows the interaction between the user and the system, as well as the business outcome delivered by the platform.
 
+## Visual Diagram
+
+![User Flows](user-flows.svg)
+
 ---
 
 ## Flow 1: Onboarding & Setup
