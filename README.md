@@ -15,11 +15,19 @@ The goal of this exercise was to analyse the product, understand its user flows 
 
 docs/
 
-01-product-analysis.md – analysis of the product, target users, core features and integrations  
-02-user-flows.md – key user journeys and system interactions  
-03-event-storming.md – domain events, commands and system boundaries  
-04-features.md – proposed product improvements and feature specifications
+## 📄 English documentation
 
+- [Product Analysis](docs/en/01-product-analysis.md) – analysis of the product, target users, core features and integrations  
+- [User Flows](docs/en/02-user-flows.md) - key user journeys and system interactions  
+- [Event Storming](docs/en/03-event-storming.md) - domain events, commands and system boundaries
+- [Feature Proposals](docs/en/04-features.md) - proposed product improvements and feature specifications
+
+## 📄 Polish documentation
+
+- [Analiza produktu](docs/pl/01-product-analysis.md)
+- [Przepływy użytkownika](docs/pl/02-user-flows.md)
+- [Event Storming](docs/pl/03-event-storming.md)
+- [Propozycje funkcjonalności](docs/pl/04-features.md)
 ---
 
 # Approach
