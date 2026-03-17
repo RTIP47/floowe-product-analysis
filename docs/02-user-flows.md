@@ -5,7 +5,7 @@ Each flow shows the interaction between the user and the system, as well as the 
 
 ## Visual Diagram
 
-![User Flows](user-flows.svg)
+![User Flows](floowe_user_flows.svg)
 
 ---
 
