@@ -1,4 +1,4 @@
-🇵🇱 Polish version → [Zobacz wersję polską](../pl/04-features.md)
+🇵🇱 Polish version → [Zobacz wersję polską](../pl/04-features-PL.md)
 
 ---
 
