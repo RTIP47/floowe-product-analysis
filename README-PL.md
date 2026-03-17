@@ -1,3 +1,6 @@
+🇵🇱 Wersja polska  
+🇬🇧 English version → see README.md
+
 # Analiza Produktu – Floowe
 
 To repozytorium zawiera analizę produktu oraz propozycje nowych funkcjonalności przygotowane na podstawie platformy Floowe.
