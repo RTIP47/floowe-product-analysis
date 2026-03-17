@@ -16,10 +16,10 @@ docs/
 
 ## 📄 Dokumentacja po polsku
 
-- [Analiza produktu](docs/pl/01-product-analysis.md) - analiza produktu, grupy docelowej, funkcjonalności i integracji 
-- [Przepływy użytkownika](docs/pl/02-user-flows.md) - kluczowe przepływy użytkownika i interakcje z systemem  
-- [Event Storming](docs/pl/03-event-storming.md) - analiza zdarzeń domenowych, komend oraz granic systemu  
-- [Propozycje funkcjonalności](docs/pl/04-features.md) - propozycje nowych funkcjonalności i ich specyfikacja
+- [Analiza produktu](docs/pl/01-product-analysis-PL.md) - analiza produktu, grupy docelowej, funkcjonalności i integracji 
+- [Przepływy użytkownika](docs/pl/02-user-flows-PL.md) - kluczowe przepływy użytkownika i interakcje z systemem  
+- [Event Storming](docs/pl/03-event-storming-PL.md) - analiza zdarzeń domenowych, komend oraz granic systemu  
+- [Propozycje funkcjonalności](docs/pl/04-features-PL.md) - propozycje nowych funkcjonalności i ich specyfikacja
 
 ## 📄 English documentation
 
