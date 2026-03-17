@@ -1,3 +1,6 @@
+🇵🇱 Polish version → [Zobacz wersję polską](../pl/03-event-storming.md)
+
+---
 # Event Storming – Floowe
 
 This document presents an Event Storming analysis of the Floowe product, identifying the key domain events, commands, actors and external systems involved in the content creation and distribution workflow.
