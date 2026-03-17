@@ -64,3 +64,9 @@ The proposed features strengthen these capabilities by introducing:
 # Author
 
 Prepared as part of a Technical PM / Product Analysis exercise.
+
+# Project Status
+
+This repository contains the completed product analysis exercise for the Floowe platform, including product analysis, user flow mapping, event storming, and feature proposals.
+
+All documentation is available in both English and Polish versions.
