@@ -68,7 +68,6 @@ Ceny są głównie uzależnione od liczby generowanych artykułów, a wyższe pl
 - Darmowy plan obniża barierę wejścia dla nowych użytkowników
 
 ### Obszary do poprawy
-- Ograniczone dowody społeczne (np. case studies, referencje)
 - Brak wbudowanej analityki lub monitorowania wyników treści
 - Plany cenowe różnią się głównie limitami, a nie funkcjonalnością
 - Obecność treści testowych (placeholderów) na stronie sugeruje wczesny etap rozwoju produktu
