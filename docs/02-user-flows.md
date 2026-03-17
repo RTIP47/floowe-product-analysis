@@ -1,72 +1,87 @@
 # User Flows – Floowe
 
-Poniżej znajdują się kluczowe przepływy użytkownika w Floowe, pokazujące interakcje użytkownika z systemem oraz wynik biznesowy każdego flow. Diagram wizualny został dołączony poniżej.
+This document describes the key user flows in Floowe.  
+Each flow shows the interaction between the user and the system, as well as the business outcome delivered by the platform.
 
 ---
 
 ## Flow 1: Onboarding & Setup
+
 **Steps:**
-1. User registers and provides brand info (voice, audience, keywords)  
-2. User links social accounts (Facebook, LinkedIn, X)  
-**Outcome:** Account fully configured, publishing enabled  
+
+1. User registers and creates an account
+2. User defines brand context (voice, audience, keywords)
+3. User connects social media accounts (Facebook, LinkedIn, X)
+4. System saves configuration and enables publishing functionality
+
+**Outcome:**  
+User account is fully configured and ready for content generation and publishing.
 
 ---
 
 ## Flow 2: Content Generation
+
 **Steps:**
-1. User clicks "Generate"  
-2. AI analyzes trending topics and proposes ideas  
-3. User selects topic  
-4. System produces a full SEO-optimized draft  
-**Outcome:** Draft article ready for review  
+
+1. User clicks "Generate Content"
+2. System analyzes trending topics and relevant keywords
+3. AI proposes article ideas
+4. User selects preferred topic
+5. System generates a full SEO-optimized draft
+
+**Outcome:**  
+Draft article generated automatically and ready for editing.
 
 ---
 
 ## Flow 3: Edit & Enrich
+
 **Steps:**
-1. User reviews draft in WYSIWYG editor  
-2. User selects or uploads images (AI-generated, stock, custom)  
-3. System applies edits and finalizes content  
-**Outcome:** Polished, ready-to-publish article with human input  
+
+1. User reviews draft in WYSIWYG editor
+2. User edits tone, structure, and wording
+3. User selects or uploads images (AI-generated, stock, custom)
+4. System updates and prepares the final version
+
+**Outcome:**  
+Polished article ready for publishing with human-in-the-loop refinement.
 
 ---
 
 ## Flow 4: Publish & Distribute
+
 **Steps:**
-1. User clicks "Publish"  
-2. System pushes article via website plugin  
-3. System generates matching social posts for all connected channels  
-**Outcome:** Multi-channel publication completed efficiently  
+
+1. User clicks "Publish"
+2. System publishes article via website integration
+3. System automatically generates social media posts
+4. System distributes posts across connected channels
+
+**Outcome:**  
+Content is published across website and social media channels with minimal manual effort.
 
 ---
 
-## Flow 5: SEO Growth Loop (TO-BE)
+## Flow 5: SEO Growth Loop (Future / TO-BE)
+
 **Steps:**
-1. Published content goes live on website  
-2. Google indexes page with active SEO keywords  
-3. Organic traffic grows over time  
-**Outcome:** Increased leads and business impact; compounding content performance  
 
----
+1. Published content becomes indexed by search engines
+2. SEO keywords improve search visibility
+3. Organic traffic increases over time
+4. User gains leads and audience growth
 
-## Visual Diagram
-![User Flows](user-flows.png)
+**Outcome:**  
+Compounding organic traffic growth through consistent content publishing.
 
 ---
 
 ## Summary Table
 
-| Flow                  | Key Result                         | Integrations                       |
-|-----------------------|-----------------------------------|-----------------------------------|
-| 1 – Onboarding        | Profile & channels configured      | FB, LinkedIn, X, website          |
-| 2 – Generation        | SEO draft produced in minutes      | AI model, web trends              |
-| 3 – Edit & Enrich     | Branded, image-rich article        | Stock photo library, uploads      |
-| 4 – Publish           | Multi-channel in one click         | CMS plugin, social APIs           |
-| 5 – SEO Loop          | Compounding organic growth         | Google Search, website            |
-
----
-
-💡 **PM/BA talking points:**
-- Flow 3 pokazuje „human-in-the-loop” → różnica między automatyzacją a pełną autonomią AI.  
-- Flow 5 pokazuje wpływ produktu na **biznesowy wynik i SEO** → świetny insight dla rozmowy.  
-- Tabela integracji ułatwia zrozumienie zależności systemowych.  
+| Flow | Key Result | Integrations |
+|-----|-----|-----|
+| Onboarding | User account and channels configured | Social media APIs |
+| Content Generation | AI-generated SEO draft | AI model, keyword trends |
+| Edit & Enrich | Human-refined content | Image libraries |
+| Publish & Distribute | Multi-channel publishing | CMS plugin, social APIs |
+| SEO Growth Loop | Long-term organic traffic | Search engines |
