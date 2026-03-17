@@ -1,4 +1,4 @@
-🇵🇱 Polish version → [Zobacz wersję polską](../pl/01-product-analysis.md)
+🇵🇱 Polish version → [Zobacz wersję polską](../pl/01-product-analysis-PL.md)
 
 ---
 
